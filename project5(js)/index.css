@@ -1,0 +1,32 @@
+body{
+    text-align:center;
+    margin:auto;
+    margin-top:5rem;
+    font-size:2rem;
+    background:gray;
+}
+button{
+    font-size:2rem;
+    border-radius:15px;
+    background:green;
+    color:white;
+    width:5cm;
+}
+button:hover{
+    background:blue;
+    transition:0.25s;
+}
+#reset{
+    font-size:2rem;
+    border-radius:15px;
+    background:red;
+    color:white;
+    width:5cm;
+}
+#save{
+    font-size:2rem;
+    border-radius:15px;
+    background:orange;
+    color:white;
+    width:5cm;
+}

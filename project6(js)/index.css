@@ -1,0 +1,25 @@
+body{
+    text-align:center;
+    margin:auto;
+    margin-top:5rem;
+    font-size:2rem;
+    background:green;
+}
+h1{
+    color:goldenrod;
+}
+h2{
+    color:white;
+}
+button{
+    width:8cm;
+    border-radius:10px;
+    font-size:30px;
+    background:goldenrod;
+    color:green;
+    padding:5px;
+    font-weight:bold;
+    border:none;
+    margin-top:10px;
+    
+}

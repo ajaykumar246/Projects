@@ -18,12 +18,5 @@ $breakpoints-down:(
         @content
     }
 }
-h1{
-    @include breakpoint(large){
-        font-size:3rem;
-    }
-}
-h1{
-    font-size:3rem;
-}
+
 

@@ -1,0 +1,21 @@
+body{
+    margin:0px;
+    width:100%;
+    background:lightblue;
+}
+#title{
+    text-align:center;
+}
+form{
+    margin:5px;
+}
+#btn_add{
+    float:right;
+    
+}
+.container{
+    background:gray;
+    width:30%;
+    height:30%;
+    margin:auto;
+}

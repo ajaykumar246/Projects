@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Search</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="page">
+        <a href="image_search.html">Google image search</a><br>
+        <a href="Advance_search.html" >Advanced Search</a>
+    </div>
+    
+    <img src="googlelogo_color_272x92dp.png" id="logo">
+    <form id="searchForm" action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search Google" id="bar"><br><div id="btn">
+        <button type="submit" name="btnG" class="btn1">Google Search</button>
+        <button type="submit" name="btnI" id="luckyButton" class="btn2">I'm Feeling Lucky</button>
+    </form>
+    </div>
+    <script>
+        document.getElementById('luckyButton').onclick = function() {
+            document.getElementById('searchForm').action = 'https://www.google.com/search?btnI=I\'m+Feeling+Lucky';
+        };</script>
+    
+</body>
+
+</html>
